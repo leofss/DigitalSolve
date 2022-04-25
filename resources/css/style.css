@@ -45,5 +45,24 @@ h2{
     font-size: 200%;
     color: white;
     font-weight: 400;
-
 }
+
+.header-box-text{
+    margin-bottom: 100px;
+}
+
+.btn-header:link, .btn-header:visited{
+    text-decoration: none;
+    padding:10px 30px;
+    border-radius: 200px;
+}
+
+.btn-full:link, .btn-full:visited{
+    background-color: #ed07b7;
+    color: white;
+}
+
+.btn-full:hover, .btn-full:active{
+    background-color: #8a5c7f;
+}
+
