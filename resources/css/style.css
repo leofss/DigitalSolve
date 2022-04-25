@@ -50,7 +50,7 @@ h2{
 .header-box-text{
     margin-bottom: 100px;
 }
-
+/* buttons */
 .btn-header:link, .btn-header:visited{
     text-decoration: none;
     padding:10px 30px;
@@ -66,6 +66,22 @@ h2{
     background-color: #8a5c7f;
 }
 
+.btn-read-more:link, .btn-read-more:visited{
+    border: 2px solid #ed07b7;
+    color: black;
+}
+
+.btn-read-more:hover, .btn-read-more:active{
+    background-color: #ed07b7;
+    color: white;
+
+}
+
+.btn-read-more{
+
+    margin-left: 25px;
+  
+}
 .main-nav{
     list-style: none;
     float: right;
@@ -81,13 +97,45 @@ h2{
 .main-nav li a:link, .main-nav li a:visited{
     text-decoration: none;
     color: white;
+    transition:border-bottom 0.2s;
 }
 .main-nav li a:hover, .main-nav li a :active{
     border-bottom: 2px solid #ed07b7 ;
 }
 
 .Logo{
-    height: 150px;
+    height: 120px;
     width: auto;
     float: left;
 }
+
+.laptop{
+    width: 80%;
+}
+
+.about-heading{
+    color: black;
+    font-size: 250%;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.about-para{
+    color: black;
+    margin-bottom: 50px;
+}
+
+.about-box{
+    margin-top: 120px;
+}
+
+.about-box:first-child{
+    text-align: left;
+    padding: 10 5%;
+}
+
+.about-box:last-child{
+    text-align: right;
+}
+
