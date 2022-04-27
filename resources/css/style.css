@@ -17,6 +17,18 @@ html, body{
     max-width: 1140px;
     margin:0 auto;
 }
+
+/* clear float and img*/
+.clear-fix{
+    zoom: 1;
+}
+.clear-fix::after{
+    content: "";
+    display: table;
+    clear: both;
+    visibility: hidden;
+}
+
 /* header section */
 header{
     background-image:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)),url(img_css/header-img.jpg);
@@ -210,4 +222,42 @@ h2{
 
 .work-para{
     color: white;
+}
+
+/*services section*/
+
+.services-section{
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* esses icones são tratados como text para estilização */
+.big-icon{
+    font-size: 250%;
+    color: #6920b0;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.service-heading{
+    font-size: 150%;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.service-para{
+    color: black;
+    font-size: 90%;
+    margin-bottom: 20px;
+}
+
+.service-link{
+    color: #ed07b7;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.service-box{
+    padding: 1% 3%;
 }
