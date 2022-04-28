@@ -173,6 +173,7 @@ h2{
     color: #555;
     font-weight: 300;
     margin-bottom: 30px;
+    line-height: 1.5;
 }
 
 .section-sub-heading:after{
@@ -260,4 +261,16 @@ h2{
 
 .service-box{
     padding: 1% 3%;
+}
+
+/* featured clients section */
+
+.partners-section{
+    text-align: center;
+    background-color: white;
+}
+
+.partner-logo{
+    width: 65%;
+    height: auto;
 }
