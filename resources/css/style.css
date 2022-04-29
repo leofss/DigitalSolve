@@ -67,6 +67,7 @@ h2{
     text-decoration: none;
     padding:10px 30px;
     border-radius: 200px;
+    display: inline-block;
 }
 
 .btn-full:link, .btn-full:visited{
@@ -273,4 +274,135 @@ h2{
 .partner-logo{
     width: 65%;
     height: auto;
+}
+
+/* testimonial section */
+
+.testimonials-section{
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),url(img_css/testimonial-background.jpg);
+    text-align: center;
+    background-size: cover;
+    color: white;
+}
+
+
+.testimonial-heading{
+    font-size: 250%;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    background-attachment: fixed;
+}
+
+.testimonial-box{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before{
+    display: block;
+    content:"\201C";
+    font-size: 500%;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+}
+
+cite{
+    display: block;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+cite img{
+    border-radius: 50%;
+    height: 20%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* pack section */
+
+.packages-section{
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.packages-heading{
+    color: black;
+    font-size: 250%;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+
+.package-box{
+    background-color: #fff;
+    width: 90%;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 2px #efefef;
+    text-align: left;
+}
+
+.package-heading{
+    font-size: 150%;
+    color: #555;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.package-price{
+    color: #ed07b7;
+    font-size: 300%;
+
+}
+
+.package-price span{
+    font-size: 50%;
+    font-weight: 400;
+}
+
+.package-para{
+    color: #555;
+    font-size: 20px;
+    margin: 10px;   
+}
+
+.package-box ul {
+    list-style: none;
+}
+
+.small-icon{
+    color: #ed07b7;
+    font-size: 120%;
+    display: inline-block;
+    margin-right: 10px;
+    width: 30px;
+    text-align: center;
+}
+.package-box ul li{
+    color: #555;
+    padding: 5px;
+}
+
+.package-box div{
+    padding: 15px;
+    border-bottom: 1px solid #efefef;
+}
+
+/* last div of pacl box */
+.package-box div:last-child{
+    border: 0;
+    text-align: center;
+    padding-left: 0;
+}
+
+.package-box div:first-child{
+    background-color: #fcfcfc;
 }
